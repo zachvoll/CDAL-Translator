@@ -1,4 +1,5 @@
 #CDAL-Translator
+
 Authors: Zachary Vollen, Donny Mansfield, David Schommer
 
 Translates CDAL, a MatLab-like language, into C++ code.
