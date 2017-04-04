@@ -1,3 +1,8 @@
+/*
+Author: Zachary Vollen
+Secondary Authors: David and Donny
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
@@ -212,17 +217,12 @@ regex_t**  Scanner::makeRegexArray(void){
 	array[toKwd] = makeRegex("^to");
 
 	//constants
-    array[intConst] = makeRegex("^[0-9]+");
+        array[intConst] = makeRegex("^[0-9]+");
 	array[floatConst] = makeRegex("^(\\-?)[0-9]+\\.[0-9]+");
 	array[stringConst] = makeRegex("^\"[^\"\r\n]*\""); 
 
 	//names
 	array[variableName] = makeRegex("^[a-zA-Z]+[a-zA-Z0-9_]*"); 
-	/*
-	 * This is causing trouble in the test case with sample_4. it is matching 'mj]' 
-	 * as a var name if we remove '\\-' from this regex, then it won't have this issue, 
-	 * however, the TA verified that it shouldn't have this issue with the current way it's written. No idea why it's fucked.
-	 */
 
 	//punctuation
 	array[leftParen] = makeRegex("^\\(");
