@@ -7,6 +7,11 @@
 
 using namespace std;
 
+/*
+A small amount of skeleton code given; the rest was written by Zachary Vollen.
+
+*/
+
 /*****************
 Class Declarations
 *****************/
@@ -34,10 +39,7 @@ class RepeatStmt;
 class WhileStmt;
 class SemiColonStmt;
 
-/*
-A small amount of skeleton code given; the rest was written by Zachary Vollen.
 
-*/
 
 class IntDecl;
 class FloatDecl;
