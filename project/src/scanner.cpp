@@ -1,6 +1,5 @@
 /*
-Author: Zachary Vollen
-Secondary Authors: David and Donny
+Author: Zachary, Donny, David
 */
 
 #include <stdio.h>
