@@ -1,4 +1,5 @@
 Authors: Zachary Vollen, Donny Mansfield, David Schommer
+Class Project written in Fall 2015.
 
 Translates CDAL, a MatLab-like language, into C++ code.
 
