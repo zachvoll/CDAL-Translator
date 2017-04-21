@@ -1,3 +1,5 @@
+//Author: Zachary Vollen
+
 #include "AST.h"
 #include "scanner.h"
 
