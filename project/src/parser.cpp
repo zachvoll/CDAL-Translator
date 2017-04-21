@@ -1,12 +1,12 @@
 /* A recursive descent parser with operator precedence.
 
-	Note from Zach: They gave mostly skeleton code and had us fill it out.
+   Note from Zach: They gave mostly skeleton code and had us fill it out.
 
    Author: Eric Van Wyk
    Modified: Robert Edge
    Modified: Kevin Thomsen
    Modified: Dan Challou
-	 Modified: Zachary Vollen
+   Modified: Zachary Vollen
 
    This algorithm is based on the work of Douglas Crockford in "Top
    Down Operator Precedence", a chapter in the book "Beautiful Code".
