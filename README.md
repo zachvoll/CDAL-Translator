@@ -1,4 +1,5 @@
-Authors: Zachary Vollen, Donny Mansfield, David Schommer.
+Group Authors: Zachary Vollen, Donny Mansfield, David Schommer.
+Skeleton Code was provided by instructors.
 
 Class Project written in Fall 2015.
 
